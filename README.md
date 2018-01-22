@@ -1,3 +1,12 @@
+# Jumpstart Portfolio Page
+
+### Getting started
+1. `git clone https://www.github.com/davified/jumpstart-portfolios-site && cd jumpstart-portfolios-site`
+2. `yarn install`
+3. To run tests: `yarn test`
+4. To start application: `yarn start`
+
+# create-react-app docs
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
