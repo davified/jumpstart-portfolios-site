@@ -1,7 +1,13 @@
 import React from "react";
 import { mount } from "enzyme";
 import CustomNavbar from "./CustomNavbar";
-import { NavbarToggler } from "reactstrap";
+
+it("CustomNavbar should display the brand and some links", () => {
+  const wrapper = mount(<CustomNavbar />);
+
+  expect(wrapper.find("NavbarBrand").contains("JumpStart!"));
+  expect(wrapper.find("NavItem").length).toBe(2);
+});
 
 it("should toggle isOpen state when NavbarToggler is clicked", () => {
   const wrapper = mount(<CustomNavbar />);
