@@ -10,14 +10,12 @@ import {
 class ProfileDescription extends Component {
   render() {
     return (
-      <div>
-        <CardBody>
-          <CardTitle>{this.props.profile.name}</CardTitle>
-          <CardSubtitle>{this.props.profile.tagline}</CardSubtitle>
-          <CardText>{this.props.profile.description}</CardText>
-          <Button>View Profile</Button>
-        </CardBody>
-      </div>
+      <CardBody>
+        <CardTitle>{this.props.profile.name}</CardTitle>
+        <CardSubtitle>{this.props.profile.tagline}</CardSubtitle>
+        <CardText>{this.props.profile.description}</CardText>
+        <Button>View Profile</Button>
+      </CardBody>
     );
   }
 }
