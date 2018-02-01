@@ -1,5 +1,16 @@
+import React from "react";
 const ProfilePage = props => {
-  return `profile page for profile: ${props.profile.name}`;
+  return (
+    <div>
+      <h1>{props.profile.name}</h1>
+
+      <p>{props.profile.description}</p>
+      <p>{props.profile.tagline}</p>
+
+      <h2>Competencies</h2>
+      {props.profile.skills.map((skill, i) => <p key={i}>{skill}</p>)}
+    </div>
+  );
 };
 
 export default ProfilePage;
