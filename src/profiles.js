@@ -1,5 +1,6 @@
 export default [
   {
+    id: "1",
     name: "bob",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin.",
@@ -7,6 +8,7 @@ export default [
     skills: ["ux", "development", "tdd", "agile"]
   },
   {
+    id: "2",
     name: "alice",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin.",
@@ -14,6 +16,7 @@ export default [
     skills: ["ux", "development", "tdd", "agile"]
   },
   {
+    id: "3",
     name: "tim",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin.",
@@ -21,6 +24,7 @@ export default [
     skills: ["ux", "development", "tdd", "agile"]
   },
   {
+    id: "4",
     name: "tom",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin.",

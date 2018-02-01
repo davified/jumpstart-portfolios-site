@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
+import { Route } from "react-router-dom";
 import IndexPanel from "../indexPanel/IndexPanel";
+import ProfilePage from "../profilePage/ProfilePage";
+
+import profiles from "../../profiles.js";
 
 import "./Body.css";
 
@@ -13,7 +17,26 @@ class Body extends Component {
             Left panel placeholder
           </Col>
           <Col className="main-panel" xs="9">
-            <IndexPanel />
+            <Route
+              exact
+              path="/"
+              render={() => {
+                return <IndexPanel profiles={profiles} />;
+              }}
+            />
+
+            <Route
+              path="/profiles/:profileId"
+              render={({ match }) => {
+                return (
+                  <ProfilePage
+                    profile={profiles.find(
+                      profile => profile.id === match.params.profileId
+                    )}
+                  />
+                );
+              }}
+            />
           </Col>
         </Row>
       </Container>

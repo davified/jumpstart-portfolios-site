@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 import CustomNavbar from "../customNavbar/CustomNavbar";
 import Body from "../body/Body";
 import "./App.css";
@@ -6,10 +7,12 @@ import "./App.css";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <CustomNavbar />
-        <Body />
-      </div>
+      <Router>
+        <div className="App">
+          <CustomNavbar />
+          <Body />
+        </div>
+      </Router>
     );
   }
 }

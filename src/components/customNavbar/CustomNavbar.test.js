@@ -14,3 +14,6 @@ it("should toggle isOpen state when NavbarToggler is clicked", () => {
   wrapper.find("NavbarToggler").simulate("click");
   expect(wrapper.state().isOpen).toBe(true);
 });
+
+// enzyme:
+// allows us to test a component without its dependencies ()
