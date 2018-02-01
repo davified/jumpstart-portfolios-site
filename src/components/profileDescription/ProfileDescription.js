@@ -1,11 +1,6 @@
 import React, { Component } from "react";
-import {
-  CardText,
-  CardBody,
-  CardTitle,
-  CardSubtitle,
-  Button
-} from "reactstrap";
+import { CardBody, CardTitle, CardSubtitle, Button } from "reactstrap";
+import TruncatedCard from "../truncatedCard/TruncatedCard";
 
 class ProfileDescription extends Component {
   render() {
@@ -13,7 +8,7 @@ class ProfileDescription extends Component {
       <CardBody>
         <CardTitle>{this.props.profile.name}</CardTitle>
         <CardSubtitle>{this.props.profile.tagline}</CardSubtitle>
-        <CardText>{this.props.profile.description}</CardText>
+        <TruncatedCard text={this.props.profile.description} />
         <Button>View Profile</Button>
       </CardBody>
     );

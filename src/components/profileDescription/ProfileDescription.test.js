@@ -13,6 +13,6 @@ test("ProfileDescription should have 4 children components", () => {
 
   expect(wrapper.find("CardTitle").length).toEqual(1);
   expect(wrapper.find("CardSubtitle").length).toEqual(1);
-  expect(wrapper.find("CardText").length).toEqual(1);
+  expect(wrapper.find("TruncatedCard").length).toEqual(1);
   expect(wrapper.find("Button").length).toEqual(1);
 });
