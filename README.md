@@ -6,6 +6,9 @@
 3. To run tests: `yarn test`
 4. To start application: `yarn start`
 
+---
+Copyright (c) 2018 ThoughtWorks. For personal use and training purposes only; not to be copied or distributed without further approval.
+
 # create-react-app docs
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
