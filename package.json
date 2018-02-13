@@ -11,7 +11,8 @@
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
     "react-test-renderer": "^16.2.0",
-    "reactstrap": "next"
+    "reactstrap": "next",
+    "recharts": "^1.0.0-beta.10"
   },
   "devDependencies": {
     "react-scripts": "1.1.0"

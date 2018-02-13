@@ -18,7 +18,8 @@ describe("CompetenciesList", () => {
       <CompetenciesList title="some title" competencies={competencies} />
     );
 
-    expect(wrapper.find("h2").contains("some title")).toEqual(true);
-    expect(wrapper.find("ul").children().length).toEqual(2);
+    expect(wrapper.find("h3").contains("some title")).toEqual(true);
+    expect(wrapper.find("BarChart").length).toEqual(1);
+    expect(wrapper.find("Bar").length).toEqual(1);
   });
 });

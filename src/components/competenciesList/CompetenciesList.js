@@ -1,17 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { BarChart, Bar, CartesianGrid, XAxis, YAxis, Tooltip } from "recharts";
 
 const CompetenciesList = props => {
   return (
     <div>
-      <h2>{props.title}</h2>
-      <ul>
-        {props.competencies.map((competency, i) => (
-          <li key={i}>
-            {competency.name}: {competency.proficiency}
-          </li>
-        ))}
-      </ul>
+      <h3>{props.title}</h3>
+      <BarChart
+        width={730}
+        height={250}
+        data={props.competencies}
+        layout="vertical"
+        margin={{ top: 5, right: 30, left: 50, bottom: 5 }}
+      >
+        <CartesianGrid horizontal={false} vertical={false} />
+        <XAxis type="number" tickCount={2} hide domain={[0, 10]} />
+        <YAxis type="category" dataKey="name" />
+        <Tooltip />
+        <Bar dataKey="proficiency" fill="#82ca9d" />
+      </BarChart>
     </div>
   );
 };

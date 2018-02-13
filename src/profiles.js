@@ -245,11 +245,11 @@ export default [
     hard_competencies: [
       {
         name: "javascript",
-        proficiency: 9
+        proficiency: 2
       },
       {
         name: "react",
-        proficiency: 10
+        proficiency: 2
       },
       {
         name: "TDD",
@@ -267,7 +267,7 @@ export default [
       },
       {
         name: "agile",
-        profiency: 10
+        profiency: 2
       },
       {
         name: "teamwork",
