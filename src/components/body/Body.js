@@ -6,8 +6,6 @@ import ProfilePage from "../profilePage/ProfilePage";
 
 import profiles from "../../profiles.js";
 
-import "./Body.css";
-
 class Body extends Component {
   render() {
     return (
