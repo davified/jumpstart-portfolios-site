@@ -1,18 +1,26 @@
 import React from "react";
 import profileIcon from "../../images/man.svg";
 import ProfileIcon from "../profileIcon/ProfileIcon";
+import CompetenciesList from "../competenciesList/CompetenciesList";
 
 const FullProfile = props => {
   return (
     <div>
       <ProfileIcon image={profileIcon} />
       <h1>{props.profile.name}</h1>
-
-      <p>{props.profile.description}</p>
       <p>{props.profile.tagline}</p>
 
-      <h2>Competencies</h2>
-      {props.profile.skills.map((skill, i) => <p key={i}>{skill}</p>)}
+      <p>{props.profile.description}</p>
+
+      <CompetenciesList
+        title="Hard Competencies"
+        competencies={props.profile.hard_competencies}
+      />
+
+      <CompetenciesList
+        title="Soft Competencies"
+        competencies={props.profile.soft_competencies}
+      />
     </div>
   );
 };

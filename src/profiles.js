@@ -9,17 +9,40 @@ export default [
     contact_number: 91234568,
     email_address: "email@email.com",
     hard_competencies: [
-      { javascript: 9 },
-      { react: 10 },
-      { TDD: 7 },
-      { agile: 5 },
-      { "domain-driven design": 8 }
+      {
+        name: "javascript",
+        proficiency: 9
+      },
+      {
+        name: "react",
+        proficiency: 10
+      },
+      {
+        name: "TDD",
+        proficiency: 7
+      },
+      {
+        name: "agile",
+        proficiency: 5
+      }
     ],
     soft_competencies: [
-      { communication: 9 },
-      { agile: 10 },
-      { teamwork: 7 },
-      { presentation: 5 }
+      {
+        name: "communication",
+        proficiency: 9
+      },
+      {
+        name: "agile",
+        profiency: 10
+      },
+      {
+        name: "teamwork",
+        profiency: 7
+      },
+      {
+        name: "presentation",
+        proficiency: 5
+      }
     ],
     job_experience: [
       {
@@ -64,17 +87,40 @@ export default [
     contact_number: 91234568,
     email_address: "email@email.com",
     hard_competencies: [
-      { javascript: 9 },
-      { react: 10 },
-      { TDD: 7 },
-      { agile: 5 },
-      { "domain-driven design": 8 }
+      {
+        name: "javascript",
+        proficiency: 9
+      },
+      {
+        name: "react",
+        proficiency: 10
+      },
+      {
+        name: "TDD",
+        proficiency: 7
+      },
+      {
+        name: "agile",
+        proficiency: 5
+      }
     ],
     soft_competencies: [
-      { communication: 9 },
-      { agile: 10 },
-      { teamwork: 7 },
-      { presentation: 5 }
+      {
+        name: "communication",
+        proficiency: 9
+      },
+      {
+        name: "agile",
+        proficiency: 10
+      },
+      {
+        name: "teamwork",
+        proficiency: 7
+      },
+      {
+        name: "presentation",
+        proficiency: 5
+      }
     ],
     job_experience: [
       {
@@ -119,17 +165,40 @@ export default [
     contact_number: 91234568,
     email_address: "email@email.com",
     hard_competencies: [
-      { javascript: 9 },
-      { react: 10 },
-      { TDD: 7 },
-      { agile: 5 },
-      { "domain-driven design": 8 }
+      {
+        name: "javascript",
+        proficiency: 9
+      },
+      {
+        name: "react",
+        proficiency: 10
+      },
+      {
+        name: "TDD",
+        proficiency: 7
+      },
+      {
+        name: "agile",
+        proficiency: 5
+      }
     ],
     soft_competencies: [
-      { communication: 9 },
-      { agile: 10 },
-      { teamwork: 7 },
-      { presentation: 5 }
+      {
+        name: "communication",
+        proficiency: 9
+      },
+      {
+        name: "agile",
+        profiency: 10
+      },
+      {
+        name: "teamwork",
+        profiency: 7
+      },
+      {
+        name: "presentation",
+        proficiency: 5
+      }
     ],
     job_experience: [
       {
@@ -174,17 +243,40 @@ export default [
     contact_number: 91234568,
     email_address: "email@email.com",
     hard_competencies: [
-      { javascript: 9 },
-      { react: 10 },
-      { TDD: 7 },
-      { agile: 5 },
-      { "domain-driven design": 8 }
+      {
+        name: "javascript",
+        proficiency: 9
+      },
+      {
+        name: "react",
+        proficiency: 10
+      },
+      {
+        name: "TDD",
+        proficiency: 7
+      },
+      {
+        name: "agile",
+        proficiency: 5
+      }
     ],
     soft_competencies: [
-      { communication: 9 },
-      { agile: 10 },
-      { teamwork: 7 },
-      { presentation: 5 }
+      {
+        name: "communication",
+        proficiency: 9
+      },
+      {
+        name: "agile",
+        profiency: 10
+      },
+      {
+        name: "teamwork",
+        profiency: 7
+      },
+      {
+        name: "presentation",
+        proficiency: 5
+      }
     ],
     job_experience: [
       {

@@ -10,22 +10,22 @@ exports[`ProfilePage should render details for a single profile 1`] = `
     fowler
   </h1>
   <p>
-    some description
-  </p>
-  <p>
     i am a guru
   </p>
-  <h2>
-    Competencies
-  </h2>
   <p>
-    a
+    some description
   </p>
-  <p>
-    b
-  </p>
-  <p>
-    c
-  </p>
+  <div>
+    <h2>
+      Hard Competencies
+    </h2>
+    <ul />
+  </div>
+  <div>
+    <h2>
+      Soft Competencies
+    </h2>
+    <ul />
+  </div>
 </div>
 `;
