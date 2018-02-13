@@ -2,7 +2,13 @@
 
 exports[`ProfilePage should render details for a single profile 1`] = `
 <div>
-  <h1>
+  <img
+    className="profile-icon card-img"
+    src="man.svg"
+  />
+  <h1
+    className="profile-icon"
+  >
     fowler
   </h1>
   <p>

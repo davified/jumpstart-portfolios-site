@@ -4,7 +4,7 @@ import { Card, CardImg } from "reactstrap";
 import ProfileDescription from "../profileDescription/ProfileDescription";
 import profileIcon from "../../images/man.svg";
 
-import "./ProfileCard.scss";
+import "./ProfileCard.css";
 
 const ProfileCard = props => {
   return (
