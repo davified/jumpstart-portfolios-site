@@ -30,5 +30,10 @@ exports[`ProfilePage should render details for a single profile 1`] = `
       Work Experience
     </h2>
   </div>
+  <div>
+    <h2>
+      Education
+    </h2>
+  </div>
 </div>
 `;

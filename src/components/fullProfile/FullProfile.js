@@ -27,6 +27,11 @@ const FullProfile = props => {
         title="Work Experience"
         entries={props.profile.job_experience}
       />
+
+      <ExperienceSection
+        title="Education"
+        entries={props.profile.education_experience}
+      />
     </div>
   );
 };

@@ -10,7 +10,8 @@ test("ProfilePage should render details for a single profile", () => {
     skills: ["a", "b", "c"],
     hard_competencies: [],
     soft_competencies: [],
-    job_experience: []
+    job_experience: [],
+    education_experience: []
   };
   const tree = renderer.create(<FullProfile profile={profile} />).toJSON();
   expect(tree).toMatchSnapshot();

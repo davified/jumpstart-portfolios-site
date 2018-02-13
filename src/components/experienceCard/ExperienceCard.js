@@ -6,7 +6,7 @@ const ExperienceCard = props => {
   return (
     <div>
       <h3 className="experience-card-title">
-        {props.entry.job_role}
+        {props.entry.job_role || props.entry.course}
         <span className="organisation">{props.entry.organisation}</span>
       </h3>
 

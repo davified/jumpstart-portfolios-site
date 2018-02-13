@@ -94,6 +94,24 @@ export default [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin."
       }
     ],
+    education_experience: [
+      {
+        course: "physics",
+        organisation: "some university",
+        start_date: "01-01-2015",
+        end_date: "01-01-2015",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur erat ut augue condimentum, ut volutpat lacus semper. Donec vel nisl ut purus blandit egestas ut sit amet dui. Phasellus mattis lacinia velit, at porttitor enim efficitur non. Sed porta dui urna, efficitur ornare nibh dapibus quis. Mauris id faucibus nisi."
+      },
+      {
+        course: "physics",
+        organisation: "some university",
+        start_date: "01-01-2015",
+        end_date: "01-01-2015",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur erat ut augue condimentum, ut volutpat lacus semper. Donec vel nisl ut purus blandit egestas ut sit amet dui. Phasellus mattis lacinia velit, at porttitor enim efficitur non. Sed porta dui urna, efficitur ornare nibh dapibus quis. Mauris id faucibus nisi."
+      }
+    ],
     projects: [
       {
         name: "my awesome project",
@@ -170,6 +188,24 @@ export default [
         end_date: "01-01-2016",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin."
+      }
+    ],
+    education_experience: [
+      {
+        course: "physics",
+        organisation: "some university",
+        start_date: "01-01-2015",
+        end_date: "01-01-2015",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur erat ut augue condimentum, ut volutpat lacus semper. Donec vel nisl ut purus blandit egestas ut sit amet dui. Phasellus mattis lacinia velit, at porttitor enim efficitur non. Sed porta dui urna, efficitur ornare nibh dapibus quis. Mauris id faucibus nisi."
+      },
+      {
+        course: "physics",
+        organisation: "some university",
+        start_date: "01-01-2015",
+        end_date: "01-01-2015",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur erat ut augue condimentum, ut volutpat lacus semper. Donec vel nisl ut purus blandit egestas ut sit amet dui. Phasellus mattis lacinia velit, at porttitor enim efficitur non. Sed porta dui urna, efficitur ornare nibh dapibus quis. Mauris id faucibus nisi."
       }
     ],
     projects: [
@@ -250,6 +286,24 @@ export default [
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin."
       }
     ],
+    education_experience: [
+      {
+        course: "physics",
+        organisation: "some university",
+        start_date: "01-01-2015",
+        end_date: "01-01-2015",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur erat ut augue condimentum, ut volutpat lacus semper. Donec vel nisl ut purus blandit egestas ut sit amet dui. Phasellus mattis lacinia velit, at porttitor enim efficitur non. Sed porta dui urna, efficitur ornare nibh dapibus quis. Mauris id faucibus nisi."
+      },
+      {
+        course: "physics",
+        organisation: "some university",
+        start_date: "01-01-2015",
+        end_date: "01-01-2015",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur erat ut augue condimentum, ut volutpat lacus semper. Donec vel nisl ut purus blandit egestas ut sit amet dui. Phasellus mattis lacinia velit, at porttitor enim efficitur non. Sed porta dui urna, efficitur ornare nibh dapibus quis. Mauris id faucibus nisi."
+      }
+    ],
     projects: [
       {
         name: "my awesome project",
@@ -326,6 +380,24 @@ export default [
         end_date: "01-01-2016",
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin."
+      }
+    ],
+    education_experience: [
+      {
+        course: "physics",
+        organisation: "some university",
+        start_date: "01-01-2015",
+        end_date: "01-01-2015",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur erat ut augue condimentum, ut volutpat lacus semper. Donec vel nisl ut purus blandit egestas ut sit amet dui. Phasellus mattis lacinia velit, at porttitor enim efficitur non. Sed porta dui urna, efficitur ornare nibh dapibus quis. Mauris id faucibus nisi."
+      },
+      {
+        course: "physics",
+        organisation: "some university",
+        start_date: "01-01-2015",
+        end_date: "01-01-2015",
+        description:
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur erat ut augue condimentum, ut volutpat lacus semper. Donec vel nisl ut purus blandit egestas ut sit amet dui. Phasellus mattis lacinia velit, at porttitor enim efficitur non. Sed porta dui urna, efficitur ornare nibh dapibus quis. Mauris id faucibus nisi."
       }
     ],
     projects: [
