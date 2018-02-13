@@ -33,11 +33,11 @@ export default [
       },
       {
         name: "agile",
-        profiency: 10
+        proficiency: 10
       },
       {
         name: "teamwork",
-        profiency: 7
+        proficiency: 7
       },
       {
         name: "presentation",
@@ -189,11 +189,11 @@ export default [
       },
       {
         name: "agile",
-        profiency: 10
+        proficiency: 10
       },
       {
         name: "teamwork",
-        profiency: 7
+        proficiency: 7
       },
       {
         name: "presentation",
@@ -267,11 +267,11 @@ export default [
       },
       {
         name: "agile",
-        profiency: 2
+        proficiency: 2
       },
       {
         name: "teamwork",
-        profiency: 7
+        proficiency: 7
       },
       {
         name: "presentation",
