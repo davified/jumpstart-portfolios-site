@@ -3,12 +3,14 @@ import PropTypes from "prop-types";
 import { BarChart, Bar, CartesianGrid, XAxis, YAxis, Tooltip } from "recharts";
 
 const CompetenciesList = props => {
+  const CHART_HEIGHT = Math.ceil(props.competencies.length / 3) * 100;
+
   return (
     <div>
       <h3>{props.title}</h3>
       <BarChart
         width={730}
-        height={250}
+        height={CHART_HEIGHT}
         data={props.competencies}
         layout="vertical"
         margin={{ top: 5, right: 30, left: 50, bottom: 5 }}

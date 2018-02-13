@@ -24,6 +24,38 @@ export default [
       {
         name: "agile",
         proficiency: 5
+      },
+      {
+        name: "a",
+        proficiency: 9
+      },
+      {
+        name: "b",
+        proficiency: 10
+      },
+      {
+        name: "c",
+        proficiency: 7
+      },
+      {
+        name: "d",
+        proficiency: 5
+      },
+      {
+        name: "e",
+        proficiency: 9
+      },
+      {
+        name: "f",
+        proficiency: 10
+      },
+      {
+        name: "g",
+        proficiency: 7
+      },
+      {
+        name: "h",
+        proficiency: 5
       }
     ],
     soft_competencies: [
@@ -47,7 +79,7 @@ export default [
     job_experience: [
       {
         job_role: "dev",
-        employer: "dunkin donuts",
+        organisation: "dunkin donuts",
         start_date: "01-01-2015",
         end_date: "01-01-2016",
         description:
@@ -55,7 +87,7 @@ export default [
       },
       {
         job_role: "dev",
-        employer: "dunkin donuts",
+        organisation: "dunkin donuts",
         start_date: "01-01-2015",
         end_date: "01-01-2016",
         description:
@@ -125,7 +157,7 @@ export default [
     job_experience: [
       {
         job_role: "dev",
-        employer: "dunkin donuts",
+        organisation: "dunkin donuts",
         start_date: "01-01-2015",
         end_date: "01-01-2016",
         description:
@@ -133,7 +165,7 @@ export default [
       },
       {
         job_role: "dev",
-        employer: "dunkin donuts",
+        organisation: "dunkin donuts",
         start_date: "01-01-2015",
         end_date: "01-01-2016",
         description:
@@ -203,7 +235,7 @@ export default [
     job_experience: [
       {
         job_role: "dev",
-        employer: "dunkin donuts",
+        organisation: "dunkin donuts",
         start_date: "01-01-2015",
         end_date: "01-01-2016",
         description:
@@ -211,7 +243,7 @@ export default [
       },
       {
         job_role: "dev",
-        employer: "dunkin donuts",
+        organisation: "dunkin donuts",
         start_date: "01-01-2015",
         end_date: "01-01-2016",
         description:
@@ -281,7 +313,7 @@ export default [
     job_experience: [
       {
         job_role: "dev",
-        employer: "dunkin donuts",
+        organisation: "dunkin donuts",
         start_date: "01-01-2015",
         end_date: "01-01-2016",
         description:
@@ -289,7 +321,7 @@ export default [
       },
       {
         job_role: "dev",
-        employer: "dunkin donuts",
+        organisation: "dunkin donuts",
         start_date: "01-01-2015",
         end_date: "01-01-2016",
         description:
