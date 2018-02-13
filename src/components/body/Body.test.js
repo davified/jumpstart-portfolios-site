@@ -19,7 +19,7 @@ it("Body should display master view and not detail view when user is at / route"
     </MemoryRouter>
   );
 
-  expect(wrapper.find(ListView).length).toEqual(1);
+  expect(wrapper.find("ListView").length).toEqual(1);
   expect(wrapper.find("ProfilePage").length).toEqual(0);
 });
 
@@ -31,5 +31,5 @@ it("Body should display master view and not detail view when user is at /profile
   );
 
   expect(wrapper.find("IndexPanel").length).toEqual(0);
-  expect(wrapper.find("ProfilePage").length).toEqual(1);
+  expect(wrapper.find("FullProfile").length).toEqual(1);
 });

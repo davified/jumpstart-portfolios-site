@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Route } from "react-router-dom";
 import ListView from "../listView/ListView";
-import ProfilePage from "../profilePage/ProfilePage";
+import FullProfile from "../fullProfile/FullProfile";
 
 import profiles from "../../profiles.js";
 
@@ -27,7 +27,7 @@ class Body extends Component {
               path="/profiles/:profileId"
               render={({ match }) => {
                 return (
-                  <ProfilePage
+                  <FullProfile
                     profile={profiles.find(
                       profile => profile.id === match.params.profileId
                     )}

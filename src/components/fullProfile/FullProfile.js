@@ -1,5 +1,5 @@
 import React from "react";
-const ProfilePage = props => {
+const FullProfile = props => {
   return (
     <div>
       <h1>{props.profile.name}</h1>
@@ -13,4 +13,4 @@ const ProfilePage = props => {
   );
 };
 
-export default ProfilePage;
+export default FullProfile;

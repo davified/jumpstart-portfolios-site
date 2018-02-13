@@ -1,6 +1,6 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import ProfilePage from "./ProfilePage";
+import FullProfile from "./FullProfile";
 
 test("ProfilePage should render details for a single profile", () => {
   const profile = {
@@ -9,6 +9,6 @@ test("ProfilePage should render details for a single profile", () => {
     tagline: "i am a guru",
     skills: ["a", "b", "c"]
   };
-  const tree = renderer.create(<ProfilePage profile={profile} />).toJSON();
+  const tree = renderer.create(<FullProfile profile={profile} />).toJSON();
   expect(tree).toMatchSnapshot();
 });
