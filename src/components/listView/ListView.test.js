@@ -1,6 +1,6 @@
 import React from "react";
 import { mount } from "enzyme";
-import IndexPanel from "./indexPanel";
+import ListView from "./ListView";
 import ProfileCard from "../profileCard/ProfileCard";
 
 it("should contain at least 3 ProfileCards", () => {
@@ -12,6 +12,6 @@ it("should contain at least 3 ProfileCards", () => {
       skills: ["a", "b", "c"]
     }
   ];
-  const wrapper = mount(<IndexPanel profiles={profiles} />);
+  const wrapper = mount(<ListView profiles={profiles} />);
   expect(wrapper.find(ProfileCard)).toHaveLength(1);
 });

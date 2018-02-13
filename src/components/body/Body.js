@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Route } from "react-router-dom";
-import IndexPanel from "../indexPanel/IndexPanel";
+import ListView from "../listView/ListView";
 import ProfilePage from "../profilePage/ProfilePage";
 
 import profiles from "../../profiles.js";
@@ -19,7 +19,7 @@ class Body extends Component {
               exact
               path="/"
               render={() => {
-                return <IndexPanel profiles={profiles} />;
+                return <ListView profiles={profiles} />;
               }}
             />
 

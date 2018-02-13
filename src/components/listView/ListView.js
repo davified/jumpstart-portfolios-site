@@ -1,7 +1,7 @@
 import React from "react";
 import ProfileCard from "../profileCard/ProfileCard";
 
-const IndexPanel = props => {
+const ListView = props => {
   return (
     <div>
       {props.profiles.map((profile, i) => (
@@ -11,4 +11,4 @@ const IndexPanel = props => {
   );
 };
 
-export default IndexPanel;
+export default ListView;

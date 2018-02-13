@@ -3,6 +3,7 @@ import { shallow, render, mount } from "enzyme";
 import { Row } from "reactstrap";
 import { MemoryRouter } from "react-router-dom";
 import Body from "./Body";
+import ListView from "../listView/ListView";
 
 it("body should contain 2 columns in a 1:2 proportion", () => {
   const wrapper = shallow(<Body />);
@@ -18,7 +19,7 @@ it("Body should display master view and not detail view when user is at / route"
     </MemoryRouter>
   );
 
-  expect(wrapper.find("IndexPanel").length).toEqual(1);
+  expect(wrapper.find(ListView).length).toEqual(1);
   expect(wrapper.find("ProfilePage").length).toEqual(0);
 });
 
