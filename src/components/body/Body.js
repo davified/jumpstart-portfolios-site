@@ -11,10 +11,10 @@ class Body extends Component {
     return (
       <Container>
         <Row>
-          <Col className="left-panel" xs="3">
+          <Col className="left-panel" xs="12">
             Left panel placeholder
           </Col>
-          <Col className="main-panel" xs="9">
+          <Col className="main-panel" xs="12">
             <Route
               exact
               path="/"

@@ -9,7 +9,7 @@ const CompetenciesList = props => {
     <div>
       <h3>{props.title}</h3>
       <BarChart
-        width={730}
+        width={window.innerWidth}
         height={CHART_HEIGHT}
         data={props.competencies}
         layout="vertical"

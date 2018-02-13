@@ -14,10 +14,10 @@ const ProfileCard = props => {
       <Card className="profile-card">
         <Container>
           <Row>
-            <Col className="left-panel" xs="3">
+            <Col className="left-panel" xs="4">
               <ProfileIcon image={image} />
             </Col>
-            <Col className="main-panel" xs="9">
+            <Col className="main-panel" xs="8">
               <ProfileDescription profile={props.profile} />
             </Col>
           </Row>

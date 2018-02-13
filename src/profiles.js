@@ -6,7 +6,7 @@ export default [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin.",
     tagline: "i am a cat",
     skills: ["ux", "development", "tdd", "agile"],
-    contact_number: 91234568,
+    portfolio_website: "my.profile.com",
     email_address: "email@email.com",
     hard_competencies: [
       {
@@ -134,7 +134,7 @@ export default [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin.",
     tagline: "i am a cat",
     skills: ["ux", "development", "tdd", "agile"],
-    contact_number: 91234568,
+    portfolio_website: "my.profile.com",
     email_address: "email@email.com",
     hard_competencies: [
       {
@@ -230,7 +230,7 @@ export default [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin.",
     tagline: "i am a cat",
     skills: ["ux", "development", "tdd", "agile"],
-    contact_number: 91234568,
+    portfolio_website: "my.profile.com",
     email_address: "email@email.com",
     hard_competencies: [
       {
@@ -326,7 +326,7 @@ export default [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae tortor vel lectus interdum suscipit. Aliquam erat volutpat. Donec ac lorem nibh. Fusce et suscipit turpis. Fusce et ultricies mauris. Sed sodales diam pharetra, suscipit enim id, ullamcorper lacus. Sed nunc eros, tristique sit amet dui non, fermentum placerat erat. Aliquam eu tortor ex. Ut fermentum nec sem id blandit. Nullam in interdum dolor. Integer aliquet ultrices nisi sed sollicitudin.",
     tagline: "i am a cat",
     skills: ["ux", "development", "tdd", "agile"],
-    contact_number: 91234568,
+    portfolio_website: "my.profile.com",
     email_address: "email@email.com",
     hard_competencies: [
       {
