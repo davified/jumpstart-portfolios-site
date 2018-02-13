@@ -9,7 +9,9 @@ class ProfileDescription extends Component {
         <CardTitle>{this.props.profile.name}</CardTitle>
         <CardSubtitle>{this.props.profile.tagline}</CardSubtitle>
         <TruncatedCard text={this.props.profile.description} />
-        <Button>View Profile</Button>
+        <Button href={"/profiles/" + this.props.profile.id}>
+          View Profile
+        </Button>
       </CardBody>
     );
   }
