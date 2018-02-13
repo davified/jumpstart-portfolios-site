@@ -6,10 +6,10 @@ import { MemoryRouter } from "react-router-dom";
 test("ProfileCard should be displayed as two columns ", () => {
   const wrapper = shallow(
     // <MemoryRouter initialEntries={["/"]} initialIndex={1}>
-      <ProfileCard />
+    <ProfileCard />
   );
 
   expect(wrapper.find("Col").length).toEqual(2);
-  expect(wrapper.find("CardImg").length).toEqual(1);
+  expect(wrapper.find("ProfileIcon").length).toEqual(1);
   expect(wrapper.find("ProfileDescription").length).toEqual(1);
 });
