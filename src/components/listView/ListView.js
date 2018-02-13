@@ -2,13 +2,9 @@ import React from "react";
 import ProfileCard from "../profileCard/ProfileCard";
 
 const ListView = props => {
-  return (
-    <div>
-      {props.profiles.map((profile, i) => (
-        <ProfileCard profile={profile} key={i} />
-      ))}
-    </div>
-  );
+  return props.profiles.map((profile, i) => (
+    <ProfileCard profile={profile} key={i} />
+  ));
 };
 
 export default ListView;

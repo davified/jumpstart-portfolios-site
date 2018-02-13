@@ -25,5 +25,10 @@ exports[`ProfilePage should render details for a single profile 1`] = `
       Soft Competencies
     </h3>
   </div>
+  <div>
+    <h2>
+      Work Experience
+    </h2>
+  </div>
 </div>
 `;

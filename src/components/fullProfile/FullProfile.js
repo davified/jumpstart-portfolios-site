@@ -2,6 +2,7 @@ import React from "react";
 import profileIcon from "../../images/man.svg";
 import ProfileIcon from "../profileIcon/ProfileIcon";
 import CompetenciesList from "../competenciesList/CompetenciesList";
+import ExperienceSection from "../experienceSection/ExperienceSection";
 
 const FullProfile = props => {
   return (
@@ -20,6 +21,11 @@ const FullProfile = props => {
       <CompetenciesList
         title="Soft Competencies"
         competencies={props.profile.soft_competencies}
+      />
+
+      <ExperienceSection
+        title="Work Experience"
+        entries={props.profile.job_experience}
       />
     </div>
   );

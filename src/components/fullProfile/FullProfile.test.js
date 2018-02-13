@@ -9,7 +9,8 @@ test("ProfilePage should render details for a single profile", () => {
     tagline: "i am a guru",
     skills: ["a", "b", "c"],
     hard_competencies: [],
-    soft_competencies: []
+    soft_competencies: [],
+    job_experience: []
   };
   const tree = renderer.create(<FullProfile profile={profile} />).toJSON();
   expect(tree).toMatchSnapshot();
