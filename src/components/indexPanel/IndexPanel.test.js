@@ -3,7 +3,7 @@ import { mount } from "enzyme";
 import IndexPanel from "./indexPanel";
 import ProfileCard from "../profileCard/ProfileCard";
 
-it("should contain at least 3 ProfileCards", () => {
+it.skip("should contain at least 3 ProfileCards", () => {
   const profiles = [
     {
       name: "martin fowler",
