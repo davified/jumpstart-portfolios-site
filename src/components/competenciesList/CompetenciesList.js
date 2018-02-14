@@ -4,12 +4,13 @@ import { BarChart, Bar, CartesianGrid, XAxis, YAxis, Tooltip } from "recharts";
 
 const CompetenciesList = props => {
   const CHART_HEIGHT = Math.ceil(props.competencies.length / 3) * 100;
+  const CHART_WIDTH = window.innerWidth * 0.8;
 
   return (
     <div>
       <h3>{props.title}</h3>
       <BarChart
-        width={window.innerWidth}
+        width={CHART_WIDTH}
         height={CHART_HEIGHT}
         data={props.competencies}
         layout="vertical"
