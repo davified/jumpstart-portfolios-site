@@ -11,7 +11,6 @@ deploy:
   provider: heroku
   api_key:
     secure: gm4SJQapWf8S86KjSQElDV1byXZ+quirXJeE9ZyM9nIt07JYJ3GNKdz8H5FYozWGBbFdX082dRq/bxeb5NAZ8Hg0uZpQKRDvLC0mS/WOFwVhg3lg+pVf6VGF0BIVjfHiD1savhtwDzm6kXXnn8HHEDdruv092pcHM5SfluEoJzBRG20/N6eqI1gU6SLjf4Hfeh8h+wQDMlPxh3se9b5YfeifY6dYv4+hSWfTivsM5aaDlmMnV/ISowdjZEPENX0PrmOVOZDLCwfiP0XPg815UMe+nS9R3B0qj5BacPMJb6AuP/WA8uOYTCyC3t0fEX9yPWwxAK64oXdVcmyLias7Ri+lbv8/zxdmHlsNpgsoRWIT0fhOM51xGPTH6sjfJEQ4SZ4Qm1Py+JmcdGwaduyNM4AX3x/CYjko9OCRq56BcBZVwplrv4r0XLfs33zBlCAhFSWdsI3/5mmTkqawW+kkV6TxwKHSbOuFfZ1p9RMhIhBSyqjt9/I/NPxGQuMMc2fuxt8JV9Bl3b/mSEzy3svlD4y8EUfbLdJj03XHxbSpf2XPMJFtEIZ3NeBo/eB5QIOcprYmvP2zVNIxGHKfogwTOUwVXIbBHSCOhCUyDILrQUogNjlJdbtHPVR8ZkoujTysgl1fpq0o77eRRf8VATosTCNCJfprxYrKuuUw2ZHsTgk=
-  app: thawing-meadow-18892
-  # app: jumpstart-portfolios
+  app: jumpstart-portfolios
   on:
     repo: thoughtworks-jumpstart/jumpstart-portfolios-site
