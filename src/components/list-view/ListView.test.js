@@ -1,7 +1,7 @@
 import React from "react";
 import { mount } from "enzyme";
 import ListView from "./ListView";
-import ProfileCard from "../profileCard/ProfileCard";
+import ProfileCard from "../profile-card/ProfileCard";
 
 it("should contain at least 3 ProfileCards", () => {
   const profiles = [

@@ -3,7 +3,7 @@ import CompetenciesList from "./CompetenciesList";
 import { shallow } from "enzyme";
 
 describe("CompetenciesList", () => {
-  it("should render competenciesList", () => {
+  it("should render competencies-list", () => {
     const competencies = [
       {
         name: "a",

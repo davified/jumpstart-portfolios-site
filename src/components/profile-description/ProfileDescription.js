@@ -1,6 +1,6 @@
 import React from "react";
 import { CardBody, CardTitle, CardSubtitle, Button } from "reactstrap";
-import TruncatedCard from "../truncatedCard/TruncatedCard";
+import TruncatedCard from "../truncated-card/TruncatedCard";
 
 const ProfileDescription = props => {
   return (

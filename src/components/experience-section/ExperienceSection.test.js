@@ -3,7 +3,7 @@ import { shallow } from "enzyme";
 import ExperienceSection from "./ExperienceSection";
 
 describe("ExperienceSection", () => {
-  it("should render experienceSection", () => {
+  it("should render experience-section", () => {
     const entries = [];
     const wrapper = shallow(
       <ExperienceSection title="some title" entries={entries} />

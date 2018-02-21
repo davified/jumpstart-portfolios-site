@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Route } from "react-router-dom";
-import ListView from "../listView/ListView";
-import FullProfile from "../fullProfile/FullProfile";
+import ListView from "../list-view/ListView";
+import FullProfile from "../full-profile/FullProfile";
 
 import profiles from "../../profiles.js";
 

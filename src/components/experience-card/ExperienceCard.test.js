@@ -3,7 +3,7 @@ import { shallow } from "enzyme";
 import ExperienceCard from "./ExperienceCard";
 
 describe("ExperienceCard", () => {
-  it("should render experienceCard", () => {
+  it("should render experience-card", () => {
     const entry = {
       job_role: "dev",
       employer: "dunkin donuts",

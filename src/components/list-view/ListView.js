@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileCard from "../profileCard/ProfileCard";
+import ProfileCard from "../profile-card/ProfileCard";
 
 const ListView = props => {
   return props.profiles.map((profile, i) => (

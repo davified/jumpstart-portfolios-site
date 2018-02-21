@@ -3,7 +3,7 @@ import { shallow, render, mount } from "enzyme";
 import { Row } from "reactstrap";
 import { MemoryRouter } from "react-router-dom";
 import Body from "./Body";
-import ListView from "../listView/ListView";
+import ListView from "../list-view/ListView";
 
 it("body should contain 2 columns in a 1:2 proportion", () => {
   const wrapper = shallow(<Body />);

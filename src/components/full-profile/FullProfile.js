@@ -1,13 +1,13 @@
 import React from "react";
-import profileIcon from "../../images/man.svg";
-import ProfileIcon from "../profileIcon/ProfileIcon";
-import CompetenciesList from "../competenciesList/CompetenciesList";
-import ExperienceSection from "../experienceSection/ExperienceSection";
+import icon from "../../images/man.svg";
+import ProfileIcon from "../profile-icon/ProfileIcon";
+import CompetenciesList from "../competencies-list/CompetenciesList";
+import ExperienceSection from "../experience-section/ExperienceSection";
 
 const FullProfile = props => {
   return (
     <div>
-      <ProfileIcon image={profileIcon} />
+      <ProfileIcon image={icon} />
       <h1>{props.profile.name}</h1>
       <p>{props.profile.tagline}</p>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { mount } from "enzyme";
 import ExperienceList from "./ExperienceList";
-import ExperienceCard from "../experienceCard/ExperienceCard";
+import ExperienceCard from "../experience-card/ExperienceCard";
 
 describe("ExperienceList", () => {
   it("should render ExperienceList", () => {

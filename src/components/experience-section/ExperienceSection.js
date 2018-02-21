@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceList from "../experienceList/ExperienceList";
+import ExperienceList from "../experience-list/ExperienceList";
 
 const ExperienceSection = props => {
   return (

@@ -1,12 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Card } from "reactstrap";
-import ProfileDescription from "../profileDescription/ProfileDescription";
+import ProfileDescription from "../profile-description/ProfileDescription";
 import image from "../../images/man.svg";
-import ProfileIcon from "../profileIcon/ProfileIcon";
+import ProfileIcon from "../profile-icon/ProfileIcon";
 
 import "./ProfileCard.css";
-import "../profileIcon/ProfileIcon.css";
+import "../profile-icon/ProfileIcon.css";
 
 const ProfileCard = props => {
   return (
